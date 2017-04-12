@@ -1,3 +1,8 @@
+;----------------
+;  Exit syscall
+; With Nullbytes
+;----------------
+
 global _start
 
 section .text
