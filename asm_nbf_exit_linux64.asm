@@ -1,3 +1,9 @@
+;------------------------------
+; Exit shellcode nullbyte-free
+;       First Version
+;-----------------------------
+
+
 global _start
 
 section .text
