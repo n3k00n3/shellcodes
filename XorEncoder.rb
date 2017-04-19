@@ -17,11 +17,13 @@ shellcode.each_byte do |byte|
 
     encoded2 << '0x'
     encoded2 << xor.to_s(16)
+    encoded2 << ','
 
 end
+
+
 puts "\e[1m\e[32m[ Type \\x01... ]\e[0m"
 puts encoded
 puts ""
 puts "\e[1m\e[32m[ Type 0x02... ]\e[0m"
 puts encoded2
-
